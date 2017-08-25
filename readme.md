@@ -39,6 +39,8 @@ Example Useage
 ## apod-image
 A Custom Element that wraps the `apod-image` and renders an image tag with the APOD.
 
+**Attributes**
+
 | Attribute | Type | Description | Default |
 | --------- | ---- | ----------- | ------- |
 | **api-key** | String | Your NASA api key. [Get one here](https://api.nasa.gov/index.html#apply-for-an-api-key) | |
@@ -46,6 +48,8 @@ A Custom Element that wraps the `apod-image` and renders an image tag with the A
 | **date** | String in format: *YYYY-MM-DD* | The date for which you'd like the image | today |
 | **height** | String (CSS value) | The desired rendering height of the image | `initial` |
 | **width** | String (CSS value) | The desired rendering width of the image | `initial` |
+
+**Events**
 
 | Event | Desrciption |
 | ----- | ----------- |
