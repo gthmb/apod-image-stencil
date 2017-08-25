@@ -53,16 +53,8 @@ export class ApodImage {
     render() {
 
         let imageProps = {
-            width: null,
-            height: null
-        }
-
-        if( this.width ) {
-            imageProps.width = this.width
-        }
-
-        if( this.height ) {
-            imageProps.height = this.height
+            width: this.width || null,
+            height: this.height || null
         }
 
         return [
