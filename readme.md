@@ -1,10 +1,10 @@
 A couple of Custom Elements for requesting and rendering NASA's *Astronomy Picture of the Day*. Made with Stenciljs.
 
-# Components
+## Components
 * `apod-request`
 * `apod-image`
 
-## apod-request
+### apod-request
 A Custom Element for making an APOD API request and passing through the results.
 
 **Attributes**
@@ -36,7 +36,7 @@ Example Useage
 </script>
 ```
 
-## apod-image
+### apod-image
 A Custom Element that wraps the `apod-image` and renders an image tag with the APOD.
 
 **Attributes**
