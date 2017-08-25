@@ -24,7 +24,7 @@ A Custom Element for making an APOD API request and passing through the results.
 
 Example Useage
 ```html
-<apod-request api-key={this.apiKey} hd={this.hd} date={this.date}></apod-request>
+<apod-request api-key="XXX"></apod-request>
 
 <!-- to listen for an event -->
 <script>
