@@ -8,6 +8,7 @@ A couple of Custom Elements for requesting and rendering NASA's *Astronomy Pictu
 A Custom Element for making an APOD API request and passing through the results.
 
 **Attributes**
+
 | Attribute | Type | Description | Default |
 | --------- | ---- | ----------- | ------- |
 | **api-key** | String | Your NASA api key. [Get one here](https://api.nasa.gov/index.html#apply-for-an-api-key) | |
@@ -15,6 +16,7 @@ A Custom Element for making an APOD API request and passing through the results.
 | **date** | String in format: *YYYY-MM-DD* | The date for which you'd like the image | today |
 
 **Events**
+
 | Event | Desrciption |
 | ----- | ----------- |
 | `requestComplete` | the request completed successfully |
